@@ -1,0 +1,26 @@
+{
+    "name": "url-shortener-using-node",
+    "version": "1.0.0",
+    "description": "Url shortener built with node and mongo db",
+    "private": true,
+    "scripts": {
+        "start": "node index.js"
+    },
+    "main": "index.js",
+    "engines": {
+        "node": "9.11.1"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "express": "~4.16.1",
+        "http-errors": "~1.6.3",
+        "jade": "~1.11.0",
+        "morgan": "~1.9.1",
+        "atob": "~2.1.2",
+        "body-parser": "~1.19.0",
+        "btoa": "~1.2.1",
+        "dotenv": "~8.0.0",
+        "mongoose": "5.5.12"
+    }
+}
